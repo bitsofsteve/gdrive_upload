@@ -68,7 +68,7 @@ def create_csv_folder(folder):
 
 
 def upload_files(file_name, parent_id, file_path):
-      service = get_gdrive_service()
+    service = get_gdrive_service()
 
     file_metadata = {
         'name': file_name,
